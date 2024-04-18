@@ -1,0 +1,2 @@
+ldlidar_sl_ros:ros_arduino_bridge/ros_arduino_bridge:ros_arduino_bridge/ros_arduino_firmware:ros_arduino_bridge/ros_arduino_msgs:ros_arduino_bridge/ros_arduino_python
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/alina/alina_robot/devel -DCMAKE_INSTALL_PREFIX=/home/alina/alina_robot/install -G Unix Makefiles

@@ -1,0 +1,7 @@
+<launch>
+    <!-- 设置地图的配置文件 -->
+    <include file="$(find env)/launch/map_read.launch"/>
+    <!-- 启动AMCL节点 -->
+    <include file="$(find env)/launch/localization.launch" />
+
+</launch>

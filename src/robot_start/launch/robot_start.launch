@@ -1,0 +1,8 @@
+<launch>
+        <!-- ros_arduino_bridge -->
+        <include file="$(find ros_arduino_python)/launch/arduino.launch" />
+        <!-- lidar -->
+        <include file="$(find ldlidar_sl_ros)/launch/ld14.launch" />
+        <!-- 机器人模型加载文件 -->
+        <include file="$(find robot_model)/launch/car.launch" />
+</launch>
