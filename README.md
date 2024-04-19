@@ -1,1 +1,2 @@
 # dev_ros_ariduino
+使用树莓派4b作为上位机，ArduinoMage2560作为下位机 同时使用ros_arduino_bridge 作为上位机跟下位机通讯
